@@ -1,0 +1,26 @@
+body {
+    background-color: #cccccc;
+}
+table {
+    width: 30%;
+}
+table, td, th {
+    border: 1px solid grey;
+    padding: 3px 10px;
+}
+thead {
+    text-align: center;
+    font-style: italic;
+    background-color: black;
+    color: white;
+    font-size: x-small;
+}
+tbody > tr:nth-child(odd) {
+    background-color: white;
+}
+tfoot {
+    font-style: italic;
+}
+.jobbra {
+    text-align: right;
+}
